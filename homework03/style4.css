@@ -1,0 +1,121 @@
+.area4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 680px;
+    height: 260px;
+}
+
+.banner7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    border-radius: 20px;
+    width: 320px;
+    height: 260px;
+}
+
+.header-banner7 {
+    width: 104px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+    margin-top: 32px;
+
+}
+
+.text-banner7 {
+    width: 256px;
+    height: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+    margin-top: 0px;
+}
+
+.button-banner7 {
+    width: 121px;
+    height: 44px;
+    background: #4A7EFF;
+    border-radius: 43px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.banner8 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 137px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.text-banner8 {
+    width: 288px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.footer-banner8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 288px;
+    height: 33px;
+    margin-top: 12px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+}
+
+.link-banner8 {
+    text-decoration-line: none;
+    width: 95px;
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #6666FF;
+}
+
+.button-banner8 {
+    width: 64px;
+    height: 33px;
+    background: #6666FF;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    color: #FFFFFF;
+}

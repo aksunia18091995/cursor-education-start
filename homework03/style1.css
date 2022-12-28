@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.allcontainer {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 72px;
+    position: absolute;
+    width: 1440px;
+    height: 990px;
+    left: 24px;
+    top: 228px;
+}
+
+.area1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    min-width: 1440px;
+    height: 148px;
+}
+
+.banner1 {
+    background-color:#0B2239;
+    margin: 0, 0, 0;
+    min-width: 1440px;
+    height: 72px;
+    display: flex;
+}
+
+.text-banner1 {
+    color: #FFFFFF;
+    margin-left: 120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 42px;
+    display: inline-block;
+    width: 922px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px; 
+}
+
+.link-banner1 {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    margin-right: 20px;
+    width: 86px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4AD295;
+}
+
+.button-banner1 {
+    margin-top: 18px;
+    margin-right: 120px;
+    margin-bottom: 18px;
+    gap: 10px;
+    width: 130px;
+    height: 36px;
+    background: #4AD295;
+    border-radius: 2px;
+    align-items: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.banner2 {
+    width: 1440px;
+    height: 52px;
+    background: #2B2627;
+    display: flex;
+}
+
+.img1-banner2 {
+    width: 16px;
+    height: 16px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 346px;
+    margin-right: 8px;
+}
+
+.text-banner2 {
+    display: inline-block;
+    color: #FFFFFF;
+    width: 689px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+}
+
+.link-banner2 {
+    color: #FFFFFF;
+}
+
+.img2-banner2 {
+    width: 16px;
+    height: 16px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
