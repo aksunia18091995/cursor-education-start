@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(48, 47, 47);
+    width: 100%;
+    min-width: 1440px;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.table {
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 10px;
+    width: 800px;
+}
+
+table, tr {
+    border-collapse: collapse;
+}
+
+tr {
+    height: 50px;
+}
+
+.border-top {
+   border-top: 1px solid rgb(117, 117, 117); 
+}
+
+table {
+    width: 800px;
+}
+
+.middle {
+    box-sizing: border-box;
+    width: 150px;
+}
+
+.small {
+    box-sizing: border-box;
+    width: 300px;
+}
+
+.search {
+    display: inline-block;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(167, 165, 165);
+    height: 35px;
+    width: 250px;
+    box-sizing: border-box;
+    margin-right: 8px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 8px;
+    cursor: text;
+}
+
+[type="checkbox"]{
+    margin-right: 15px;
+}
+
+[type="checkbox"]:hover {
+    color: rgb(60, 60, 253);
+}
+
+[type='search']{
+    border: none;
+    outline: none;
+    background-color: rgb(167, 165, 165);
+}
+
+[placeholder="Search"]{
+    width: 200px;
+}
+
+.fa-brands, .fa-sistrix {
+    color: rgb(117, 117, 117);
+}
+
+.white_color {
+    color: rgb(213, 213, 213);
+    padding: 15px;
+}
+
+.gray_color {
+    color: rgb(117, 117, 117);
+    padding: 15px;
+}
+
+.start_aligh {
+    text-align: start;
+    padding: 15px;
+}
+
+.start_aligh_1 {
+    text-align: start;
+    padding-left: 15px;
+}
+
+.end_aligh {
+    text-align: end;
+}
+
+.blue_colour {
+    color: rgb(60, 60, 253);
+}
+
+.pointer:hover {
+    background-color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+.t_2 {
+    display: inline-block;
+}
