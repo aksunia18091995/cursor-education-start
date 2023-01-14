@@ -1,0 +1,339 @@
+body {
+    width: 100%;
+    min-width: 1440px;
+    height: auto;
+    background-color:#9799A0;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.screens {
+    display: flex;
+    flex-direction: row;
+    gap: 320px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.screen_1, .screen_2 {
+    width: 390px;
+    height: 844px;
+    border: none;
+    border-radius: 46px;
+    overflow: hidden;
+}
+
+.screen_1 {
+    background-image: url(images/заставка.jpeg);
+    position: relative;
+}
+
+.status_bar {
+    display: inline-block;
+}
+
+.all_status_bar {
+    margin-top: 4px;
+    margin-left: 30px;
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    gap: 205px;
+    align-items: center;
+    position: sticky;
+}
+
+.st_b_1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    width: 54px;
+    color: #FFFFFF;
+}
+
+.st_b_2 {
+    width: 77px;
+    height: 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.hear {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 115px;
+}
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.weather_city {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 41px;
+    color: #FFFFFF;
+    
+}
+
+.weather_degree {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 96px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.weather_sky {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer {
+    height: 325px;
+    width: 100%;
+    background: linear-gradient(135.73deg, rgba(46, 51, 90, 0.2) 11.01%, rgba(28, 27, 51, 0.2) 95.06%);
+    border-radius: 44px 44px 0px 0px;
+    box-shadow: inset 0px 0px 6px #b0b0b0;
+    backdrop-filter: blur(25px);
+    margin-top: 232px;
+}
+
+.choose {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 12px;
+    margin-top: 33px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.choose p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(191, 192, 201, 0.53);
+}
+
+.separate {
+    width: 390px;
+    height: 8px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.483);
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.underline {
+    width: 70px;
+    height: 11px;
+    box-shadow: 0px 3px 0px rgba(255, 255, 255, 0.483);
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.indicator {
+    width: 49px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.hours {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    margin-left: 21px;
+    margin-top: 72px;
+    position: absolute;
+}
+
+.hour_1, .hour_2, .hour_3, .hour_4, .hour_5, .hour_6 {
+    width: 60px;
+    height: 146px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 28px;
+}
+
+.hour_1, .hour_3, .hour_4, .hour_5, .hour_6 {
+    background: rgba(19, 21, 28, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(255, 255, 255, 0.25);
+}
+
+.hour_2 {
+    background: #13131C;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25), inset 1px 1px 0px rgba(48, 47, 47, 0.25);
+}
+
+.hour {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.374px;
+    color: #FFFFFF;
+}
+
+.procent {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.374px;
+    color: #23BCB3;
+}
+
+.degree {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.374px;
+    color: #FFFFFF;
+}
+
+.row_footer {
+    background-image: url(./images/Rectangle\ 3.png);
+    margin-top: 240px;
+    opacity: 50%;
+    width: 390px;
+    height: 88px;
+    position: absolute;
+}
+
+.menu_footer {
+    width: 334px;
+    height: 44px;
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_button_space {
+    margin-left: 66px;
+    position: absolute;
+}
+
+.button {
+    position: absolute;
+    margin-left: 133px;
+    margin-bottom: 13px;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    position: absolute;
+    margin-top: 217px;
+    margin-left: 135px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    transform: translate(0, 0.2em);
+}
+
+button.btn:active {
+    transform: translate(0em, 0.5em);
+}
+    
+.style_fon_1 {
+    width: 390px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(58, 63, 84, 0) 0%, #3A3F54 100%);
+    position: absolute;
+    margin-top: 60px;
+}
+
+.style_fon_2 {
+    width: 250px;
+    height: 250px;
+    background: conic-gradient(from 180deg at 50% 50%, #090A0E 0deg, #090A0E 95.62deg, rgba(9, 10, 14, 0) 223.13deg, #090A0E 337.5deg, #090A0E 360deg);
+    filter: blur(70px);
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 271px;
+    margin-top: 300px;
+}
+
+.style_fon_3 {
+    position: absolute;
+    width: 286px;
+    height: 32px;
+    border-radius: 50%;
+    background: #090A0E;
+    filter: blur(30px);
+    margin-left: 64px;
+    margin-top: 200px;
+}
+
+.style_fon_4 {
+    position: absolute;
+    width: 286px;
+    height: 17px;
+    background: #ffffff69;
+    filter: blur(10px);
+    margin-left: 54px;
+    margin-top: 220px;
+    border-radius: 50%;
+}
+
+.hour_1, .hour_2, .hour_3, .hour_4, .hour_5 {
+    cursor: pointer;
+}
+
+.choose p {
+    cursor: pointer;
+}
+
+.choose p:hover {
+    color: aliceblue;
+}
+
+.menu_footer {
+    cursor: pointer;
+}
+
+.menu_footer_1:hover {
+    background: #ffffff34;
+    border-radius: 40%;
+}
