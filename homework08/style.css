@@ -45,6 +45,11 @@ footer {
   line-height: 28px;
   color: #ffffff;
   position: relative;
+  cursor: pointer;
+}
+
+.footer_button:hover {
+  background: #c4c4c4;
 }
 
 .footer_button::after {
