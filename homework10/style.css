@@ -1,0 +1,260 @@
+/* swords */
+.sword_1,
+.sword_2,
+.sword_1_blue_light,
+.sword_2_yellow_light {
+  position: absolute;
+}
+
+.swords {
+  padding: 100px;
+  width: 100%;
+  height: 800px;
+  background-color: rgb(24 32 16);
+}
+
+.sword_1 {
+  width: auto;
+  display: flex;
+  animation: sword1_rotate 10s infinite;
+}
+
+.sword_1_handle {
+  margin-top: 315px;
+  margin-left: 101px;
+  z-index: 5;
+}
+.sword_1_handle img,
+.sword_2_handle img {
+  width: 145px;
+  height: 98px;
+}
+
+.sword_1_blue_light {
+  top: 340px;
+  left: 196px;
+  height: 13px;
+  width: 50px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  transition: transform 6s;
+  z-index: 0;
+  rotate: 328deg;
+  transform: scaleX(10);
+  transform-origin: center left;
+  background-color: rgb(0 19 158);
+  box-shadow: rgb(73 95 255) 0px 7px 29px 0px,
+    inset 1px 0px 2px 2px rgb(147 160 255 / 16%);
+}
+
+@keyframes sword1_rotate {
+  0% {
+    transform-origin: left top;
+    rotate: -80deg;
+  }
+  50% {
+    transform-origin: left;
+    rotate: -10deg;
+  }
+  100% {
+    transform-origin: left top;
+    rotate: -80deg;
+  }
+}
+
+.sword_2 {
+  width: auto;
+  display: flex;
+  animation: sword2_rotate 10s infinite;
+}
+
+.sword_2_handle {
+  margin-top: 315px;
+  margin-left: 800px;
+  z-index: 5;
+}
+
+.sword_2_yellow_light {
+  top: 59px;
+  left: 386px;
+  height: 13px;
+  width: 50px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  z-index: 0;
+  rotate: 32deg;
+  transition: transform 6s;
+  transform: scaleX(10);
+  transform-origin: center left;
+  background-color: rgb(175 184 58);
+  box-shadow: rgb(245 255 112) 0px 7px 64px 0px,
+    inset 1px 0px 2px 2px rgb(247 255 135);
+}
+
+@keyframes sword2_rotate {
+  0% {
+    rotate: 80deg;
+    transform-origin: right top;
+  }
+  50% {
+    rotate: 10deg;
+    transform-origin: right;
+  }
+  100% {
+    rotate: 80deg;
+    transform-origin: right top;
+  }
+}
+
+.sword_2_handle img {
+  rotate: 242deg;
+}
+
+/* balance wheel */
+
+.section_2 {
+  width: 100%;
+  background-color: rgb(24 32 16);
+  height: 300px;
+}
+
+.balance_wheel {
+  width: 700px;
+  height: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: blue;
+}
+
+.ball_1 {
+  animation: ball1 6s 0s infinite;
+}
+
+@keyframes ball1 {
+  0% {
+    rotate: 0deg;
+    transform-origin: top;
+    background-color: blue;
+  }
+  15% {
+    rotate: 90deg;
+    transform-origin: top;
+    background-color: rgb(82, 82, 255);
+  }
+  30% {
+    rotate: 0deg;
+    transform-origin: top;
+    background-color: rgb(157, 157, 255);
+  }
+}
+
+.ball_2 {
+  animation: ball2 6s 1s infinite;
+}
+
+@keyframes ball2 {
+  35% {
+    background-color: rgb(157, 157, 255);
+  }
+  80% {
+    background-color: rgb(82, 82, 255);
+  }
+  95% {
+    background-color: blue;
+  }
+}
+
+.ball_3 {
+  animation: ball3 6s 1.5s infinite;
+}
+
+@keyframes ball3 {
+  20% {
+    background-color: rgb(157, 157, 255);
+  }
+  65% {
+    background-color: rgb(82, 82, 255);
+  }
+  85% {
+    background-color: blue;
+  }
+}
+
+.ball_4 {
+  animation: ball4 6s 2s infinite;
+}
+
+@keyframes ball4 {
+  20% {
+    background-color: rgb(157, 157, 255);
+  }
+  55% {
+    background-color: rgb(82, 82, 255);
+  }
+  60% {
+    background-color: blue;
+  }
+}
+
+.ball_5 {
+  animation: ball5 6s 2.5s infinite;
+}
+
+@keyframes ball5 {
+  20% {
+    background-color: rgb(157, 157, 255);
+  }
+  40% {
+    background-color: rgb(82, 82, 255);
+  }
+  50% {
+    background-color: blue;
+  }
+}
+
+.ball_6 {
+  animation: ball6 6s 3s infinite;
+}
+
+@keyframes ball6 {
+  20% {
+    background-color: rgb(157, 157, 255);
+  }
+  25% {
+    background-color: rgb(82, 82, 255);
+  }
+  50% {
+    background-color: blue;
+  }
+}
+
+.ball_7 {
+  animation: ball7 6s 3.5s infinite;
+}
+
+@keyframes ball7 {
+  0% {
+    rotate: 0deg;
+    transform-origin: top;
+    background-color: rgb(157, 157, 255);
+  }
+  15% {
+    rotate: -90deg;
+    transform-origin: top;
+    background-color: rgb(82, 82, 255);
+  }
+  30% {
+    rotate: 0deg;
+    transform-origin: top;
+    background-color: blue;
+  }
+}
