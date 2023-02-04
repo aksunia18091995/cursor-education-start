@@ -1025,13 +1025,13 @@
     align-self: center;
   }
 
-  .main_section4_gradient_left {
+  /* .main_section4_gradient_left {
     width: 4%;
   }
 
   .main_section4_gradient_right {
     width: 4%;
-  }
+  } */
 
   .main_section5 {
     padding-left: 20px;
@@ -1115,5 +1115,9 @@
 
   .main_section1_left_advert_video {
     width: 100%;
+  }
+
+  .main_section1_left_footballvideo {
+    margin-left: 5%;
   }
 }
