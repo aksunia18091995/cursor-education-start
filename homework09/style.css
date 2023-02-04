@@ -12,7 +12,7 @@
 }
 
 .header {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background: #f4f6f9;
   display: flex;
@@ -152,7 +152,7 @@
 /* main */
 .main_section1 {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -354,7 +354,7 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -422,7 +422,7 @@
 }
 
 .main_section3 {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-image: url(./images/section3_fon.png);
   background-size: cover;
@@ -464,7 +464,7 @@
 }
 
 .main_section4 {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   padding-top: 4.5%;
 }
@@ -563,6 +563,7 @@
 
 .slick-next {
   margin-right: 9%;
+  right: 0 !important;
 }
 
 .slick-prev {
@@ -594,7 +595,7 @@
 }
 
 .main_section5 {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   margin-top: 124px;
   background: #fafafa;
@@ -627,7 +628,7 @@
 }
 
 .main_section6 {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -670,7 +671,7 @@
 
 /* footer */
 .footer {
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background: #00adee;
   padding: 3.3% 11.3%;
@@ -852,11 +853,12 @@
     flex-direction: column;
     text-align: center;
     padding-top: 2%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
     padding-bottom: 11%;
-    width: 90%;
+    width: 100%;
     flex-basis: 100%;
+    box-sizing: border-box;
   }
 
   .header_info_text h1 {
@@ -964,11 +966,12 @@
   }
 
   .main_section2_info {
-    width: 90%;
+    width: 100%;
     padding-top: 17%;
     padding-left: 5.5%;
     padding-right: 5.5%;
     text-align: center;
+    box-sizing: border-box;
   }
 
   .main_section2_info_head {
@@ -1036,7 +1039,7 @@
   }
 
   .main_section6 {
-    width: 100vw;
+    width: 100%;
     height: 696px;
     display: flex;
     flex-direction: column;
@@ -1074,7 +1077,7 @@
 
   /* footer */
   .footer {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     padding: 11.4% 5.5% 12.5%;
     display: flex;
@@ -1099,5 +1102,18 @@
     justify-content: space-between;
     order: 1;
     margin-top: 3.5%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header_info_button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .main_section1_left_advert_video {
+    width: 100%;
   }
 }
