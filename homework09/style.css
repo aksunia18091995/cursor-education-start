@@ -1119,5 +1119,14 @@
 
   .main_section1_left_footballvideo {
     margin-left: 5%;
+    width: 80%;
+  }
+
+  .main_section1_left_advertisement {
+    width: 80%;
+  }
+
+  .main_section1_left_advertisement_footer {
+    width: 100%;
   }
 }
