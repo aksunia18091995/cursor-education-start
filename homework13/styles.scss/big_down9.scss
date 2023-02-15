@@ -1,0 +1,12 @@
+.big_down9 {
+  flex-direction: row-reverse;
+  @include border-back($blue, none);
+
+  span {
+    @include text(500, 15px, 18px, $white);
+  }
+
+  i {
+    color: $white;
+  }
+}

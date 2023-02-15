@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 44px 0px 80px 58px;
+}
+
+.big-button {
+  margin-top: 26px;
+  margin-bottom: 73px;
+  display: flex;
+  flex-direction: row;
+  gap: 132px;
+
+  &_mix {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    button {
+      height: 46px;
+    }
+  }
+}
+
+.big_down {
+  display: grid;
+  grid-template-columns: repeat(4, 144px);
+  grid-template-rows: repeat(3, 46px);
+  gap: 24px 20px;
+}
+
+.small-button {
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  margin-left: 18px;
+  gap: 60px;
+
+  &_download {
+    display: grid;
+    grid-template-columns: repeat(4, 111px);
+    grid-template-rows: repeat(3, 36px);
+    gap: 20px 54px;
+  }
+
+  &_mix {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 80px;
+
+    button {
+      height: 36px;
+    }
+  }
+
+  &_circle {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
+.add-button {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: space-between;
+  width: 142px;
+  height: 70px;
+}
+
+.add_tags2_tag2 {
+  color: #ffffff !important;
+}
+
+$blue: #18a0fb;
+$grey: #878787;
+$light-grey: rgba(224, 224, 224, 0.3);
+$white: #ffffff;
+$red: #ff3e1d;
+$black: #2c2c2c;
+$green: #00d200;
+$border-col: #e0e0e0;
+
+@mixin button($width, $tall, $color, $radius) {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: $width;
+  height: $tall;
+  background: $color;
+  border-radius: $radius;
+}
+@mixin text($fw, $fz, $lh, $text-col) {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: $fw;
+  font-size: $fz;
+  line-height: $lh;
+  color: $text-col;
+}
+@mixin border-back($bc, $br) {
+  background-color: $bc;
+  border: $br;
+}
+
+@import "big_down1";
+@import "big_down2";
+@import "big_down3";
+@import "big_down4";
+@import "big_down5";
+@import "big_down6";
+@import "big_down7";
+@import "big_down8";
+@import "big_down9";
+@import "big_down10";
+@import "big_down11";
+@import "big_down12";
+@import "big_icon";
+@import "big_tab";
+@import "big_sz";
+@import "sm_down1";
+@import "sm_down2";
+@import "sm_down3";
+@import "sm_down4";
+@import "sm_down5";
+@import "sm_down6";
+@import "sm_down7";
+@import "sm_down8";
+@import "sm_down9";
+@import "sm_down10";
+@import "sm_down11";
+@import "sm_down12";
+@import "sm_tab";
+@import "sm_search";
+@import "sm_sz";
+@import "search";
+@import "add_tags1";
+@import "add_tags2";

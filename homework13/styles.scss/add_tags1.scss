@@ -1,0 +1,27 @@
+.add_tags1 {
+  width: 142px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &_tag1 {
+    @include button(65px, 28px, $white, 5px);
+    @include border-back($white, 1px solid $border-col);
+    span {
+      @include text(500, 13px, 16px, $black);
+    }
+    i {
+      color: black;
+    }
+  }
+  &_tag2 {
+    @include button(65px, 28px, $blue, 5px);
+    @include border-back($blue, none);
+    span {
+      @include text(500, 13px, 16px, $white);
+    }
+    i {
+      color: $white;
+    }
+  }
+}

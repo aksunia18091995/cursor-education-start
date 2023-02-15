@@ -1,0 +1,4 @@
+.big_down1 {
+  @include text(500, 15px, 18px, $white);
+  @include border-back($blue, none);
+}

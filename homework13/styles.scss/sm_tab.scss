@@ -1,0 +1,19 @@
+.sm_tab {
+  display: flex;
+  width: 174px;
+  height: 36px;
+
+  &1 {
+    @include button(86px, 36px, $blue, 5px 0px 0px 5px);
+    @include text(500, 15px, 18px, $white);
+    padding: 0;
+    border: none;
+  }
+
+  &2 {
+    @include button(88px, 36px, $white, 0px 5px 5px 0px);
+    @include text(500, 15px, 18px, $black);
+    @include border-back($white, 1px solid #e0e0e0);
+    padding: 0;
+  }
+}

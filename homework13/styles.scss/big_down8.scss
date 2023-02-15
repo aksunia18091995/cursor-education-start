@@ -1,0 +1,9 @@
+.big_down8 {
+  @include border-back($white, 1px solid $blue);
+  span {
+    @include text(500, 15px, 18px, $blue);
+  }
+  i {
+    color: $blue;
+  }
+}

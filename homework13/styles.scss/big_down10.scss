@@ -1,0 +1,12 @@
+.big_down10 {
+  flex-direction: row-reverse;
+  @include border-back($light-grey, none);
+
+  span {
+    @include text(500, 15px, 18px, $grey);
+  }
+
+  i {
+    color: $grey;
+  }
+}

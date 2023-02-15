@@ -1,0 +1,4 @@
+.sm_down1 {
+  @include text(500, 13px, 16px, $white);
+  @include border-back($blue, none);
+}

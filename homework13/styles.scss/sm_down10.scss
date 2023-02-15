@@ -1,0 +1,12 @@
+.sm_down10 {
+  flex-direction: row-reverse;
+  @include border-back($light-grey, none);
+
+  span {
+    @include text(500, 13px, 16px, $grey);
+  }
+
+  i {
+    color: $grey;
+  }
+}

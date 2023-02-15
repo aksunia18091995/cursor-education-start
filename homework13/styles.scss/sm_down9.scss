@@ -1,0 +1,12 @@
+.sm_down9 {
+  flex-direction: row-reverse;
+  @include border-back($red, none);
+
+  span {
+    @include text(500, 13px, 16px, $white);
+  }
+
+  i {
+    color: $white;
+  }
+}

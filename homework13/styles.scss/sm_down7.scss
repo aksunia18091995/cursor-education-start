@@ -1,0 +1,11 @@
+.sm_down7 {
+  @include border-back($white, 1px solid $border-col);
+
+  span {
+    @include text(500, 13px, 16px, $black);
+  }
+
+  i {
+    color: $black;
+  }
+}

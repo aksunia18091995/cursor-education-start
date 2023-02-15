@@ -1,0 +1,33 @@
+.small-button {
+  &_circle {
+    align-self: self-start;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 105px;
+    height: 48;
+    justify-content: space-between;
+    .sm-sircle1 {
+      @include button(36px, 36px, $red, 50%);
+      box-sizing: border-box;
+      justify-content: center;
+      border: none;
+      outline: none;
+      padding: 0;
+      i {
+        color: $white;
+      }
+    }
+    .sm-sircle2 {
+      @include button(48px, 48px, $green, 50%);
+      box-sizing: border-box;
+      justify-content: center;
+      border: none;
+      outline: none;
+      padding: 0;
+      i {
+        color: $white;
+      }
+    }
+  }
+}

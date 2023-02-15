@@ -1,0 +1,9 @@
+.big_down7 {
+  @include border-back($white, 1px solid $border-col);
+  span {
+    @include text(500, 15px, 18px, $black);
+  }
+  i {
+    color: $black;
+  }
+}
