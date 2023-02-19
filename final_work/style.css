@@ -183,6 +183,10 @@ body {
   justify-content: space-between;
   width: 18%;
 }
+.footer-social_media a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
 h1 {
   color: #FFFFFF;
@@ -254,6 +258,10 @@ button {
   padding: 10px 16px;
   width: 110px;
   height: 38px;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 992px) {
