@@ -48,8 +48,7 @@
   gap: 30px;
 }
 .header1 nav a {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 .header1 button {
   margin-left: 70px;
@@ -258,8 +257,7 @@ a {
   color: #505f98;
   font-weight: 400;
   line-height: 24px;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 a:hover {
@@ -273,8 +271,7 @@ a:hover {
   color: #929ecc;
   font-weight: 400;
   line-height: 24px;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 button {
@@ -363,7 +360,7 @@ button:hover {
 
 @media screen and (max-width: 1200px) {
   .information img,
-.details-choose img {
+  .details-choose img {
     width: 350px;
     height: 350px;
   }
